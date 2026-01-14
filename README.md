@@ -54,14 +54,3 @@ This project demonstrates how **graph databases** can:
 This schema enables efficient traversal, ranking, and connectivity analysis.
 
 ---
-
-## 🖥️ Neo4j Browser View
-> 📌 *Add a screenshot here after running the container*
-
-1. Open Neo4j Browser:  
-   `http://localhost:7474`
-2. Run a sample query:
-   ```cypher
-   MATCH (l:Location)-[t:TRIP]->(m:Location)
-   RETURN l, t, m
-   LIMIT 25;
